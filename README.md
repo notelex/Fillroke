@@ -4,11 +4,13 @@ Turns traced SVG icons whose lines are **filled shapes** into clean, editable **
 
 Image tracing (Illustrator Image Trace, Potrace, Inkscape Trace Bitmap and so on) outlines every line as a filled shape. Fillroke finds the middle of each line and rebuilds it as a single stroked path, so you get proper strokes you can restyle instead of outlines you have to fix by hand.
 
+**Use it online: https://notelex.github.io/Fillroke/**
+
 ## Run it
 
-There is nothing to install or build. It is a single HTML file that runs entirely in your browser; your files never leave your computer.
+There is nothing to install or build. It is a single HTML file that runs entirely in your browser; your files never leave your computer, whether you use the online version or a local copy.
 
-1. Open `index.html` in Chrome, Edge, Firefox or Safari (double-click it).
+1. Open the link above, or open `index.html` in Chrome, Edge, Firefox or Safari (double-click it).
 2. Drop one or more SVG files onto the page, paste SVG code, or click **Open SVG…**.
 3. Adjust the settings if needed, then click **Download SVG** (or **Download all (.zip)** for a batch).
 
@@ -48,3 +50,7 @@ There is nothing to install or build. It is a single HTML file that runs entirel
 - Very sharp mitred points (under about 40°) can come out slightly rounded at the tip.
 - Solid filled areas that are not lines produce odd strokes; it is meant for line art.
 - Dots become tiny round-capped strokes, so they disappear with flat line ends.
+
+## License
+
+[MIT](LICENSE)
